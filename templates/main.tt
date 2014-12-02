@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hide URL</title>
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/sjcl.js"></script>
+    <script src="js/hideurl.js"></script>
+
+
+  </head>
+
+  <body>
+
+    <h2> Test version</h1>
+
+
+[% body %]
+
+
+      <p>  We make extensive use of the <a href="http://crypto.stanford.edu/sjcl/">Stanford Javascript Crypto Library (SJCL) </a>. The minimal backend is written in Perl; we enthusiastically praise PSGI/Plack :).  Our code is free software distributed under the terms of the GPL v3.<p>
+   </div>
+  </div>
+
+  </body>
+</html>

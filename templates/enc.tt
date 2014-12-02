@@ -1,0 +1,20 @@
+
+  <div>
+    <div>
+      <h3>Encrypt</h3>
+      <p>Enter a URL and a strong password below and click 'Encrypt'. The encryption takes place entirely in your browser. Neither the URL nor your password is sent to our server.  </p>
+
+
+        <form onsubmit="return false;">
+          <input type="text" class="input-large" placeholder="URL" id="url" name="url"/>
+          <input type="password" class="input-small" placeholder="Password" id="password" name="password" autocomplete="off"/>
+          <button type="submit" class="btn" onclick="encrypt_url();">Encrypt</button>
+        </form>
+
+
+  <div id="message">
+       &nbsp;
+  </div>
+
+  </div>
+  </div>

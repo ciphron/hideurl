@@ -1,0 +1,20 @@
+
+  <div class="row">
+    <div>
+      <h3>Decrypt</h3>
+      <p>Enter your password and click 'Go'. If everything is correct, you will be redirected to the the decrypted URL.</p>
+
+
+        <form  onsubmit="return false;">
+          <input type="password" class="input-small" placeholder="Password" id="password" autocomplete="off" name="password"/>
+          <button type="submit" class="btn" onclick="decrypt_url('[% url_ct %]');">Go</button>
+        </form>
+
+
+  <div id="message">
+       &nbsp;
+  </div>
+
+  </div>
+  </div>
+
